@@ -1,0 +1,71 @@
+.register{
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg");
+    background-size: cover;
+    
+        
+}
+
+.registerTitle{
+    font-size: 50px;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.borderx{
+    height: 340px;
+    width: 300px;
+    /* background: red; */
+    margin:20px;
+    border-radius: 5px;
+    border-color: black;
+    border: 2px solid black;
+   
+   
+}
+.borin{
+    height: 300px;
+    width: 200px;
+    /* background: greenyellow; */
+    margin-left:50px;
+    margin-top:30px;
+}
